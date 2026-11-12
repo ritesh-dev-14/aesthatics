@@ -221,9 +221,13 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-medium text-sm text-[#1A1A1A] mb-0.5">Phone Inquiries</h4>
-                    <a href={`tel:${COMPANY_INFO.phone}`} className="text-xs text-gray-600 hover:text-[#C5A059] transition-colors">
-                      {COMPANY_INFO.phone}
-                    </a>
+                    <div className="flex flex-col gap-1">
+                      {COMPANY_INFO.phones.map((phone) => (
+                        <a key={phone} href={`tel:${phone.replace(/\s/g, '')}`} className="text-xs text-gray-600 hover:text-[#C5A059] transition-colors">
+                          {phone}
+                        </a>
+                      ))}
+                    </div>
                   </div>
                 </div>
 

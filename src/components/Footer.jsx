@@ -113,11 +113,19 @@ export default function Footer() {
             </div>
             <div className="flex items-center">
               <Phone size={18} className="text-gold mr-3 flex-shrink-0" />
-              <p className="text-gray-400 text-sm">{COMPANY_INFO.phone}</p>
+              <div className="flex flex-col gap-1">
+                {COMPANY_INFO.phones.map((phone) => (
+                  <a key={phone} href={`tel:${phone.replace(/\s/g, '')}`} className="text-gray-400 text-sm hover:text-gold transition-colors">
+                    {phone}
+                  </a>
+                ))}
+              </div>
             </div>
             <div className="flex items-center">
               <Mail size={18} className="text-gold mr-3 flex-shrink-0" />
-              <p className="text-gray-400 text-sm">{COMPANY_INFO.email}</p>
+              <a href={`mailto:${COMPANY_INFO.email}`} className="text-gray-400 text-sm hover:text-gold transition-colors">
+                {COMPANY_INFO.email}
+              </a>
             </div>
           </div>
         </div>

@@ -10,7 +10,7 @@ export const COMPANY_INFO = {
   name: 'Aesthetic Homez',
   tagline: 'Brings You Close To Luxury',
   parent: 'Swastik Home Decor',
-  location: 'Panipat, India',
+  location: 'India — Plot No. 3295/1, Opposite Hotel Hive, Adjacent to S.D. School, G.T. Road, Panipat – 132103, Haryana',
   email: 'info@aesthetichomez.com',
-  phone: '+91 12345 67890'
+  phones: ['+91 9817802201', '+91 9878721079']
 };

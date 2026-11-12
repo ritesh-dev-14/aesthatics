@@ -2,6 +2,7 @@ import React, { useRef, useState } from 'react';
 import { AnimatePresence, motion, useReducedMotion, useScroll, useTransform } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { ArrowDown, ArrowRight, ArrowUpRight } from 'lucide-react';
+import image1 from "../images/image1.png";
 
 const collections = [
   {
@@ -279,7 +280,7 @@ export default function Home() {
         <motion.img
           className="home-hero__image"
           style={{ y: heroImageY, scale: heroImageScale }}
-          src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=2400&q=90"
+          src={image1}
           alt="Sunlit living room dressed in natural textures"
           fetchPriority="high"
         />
