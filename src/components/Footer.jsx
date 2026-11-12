@@ -56,7 +56,7 @@ export default function Footer() {
             {COMPANY_INFO.tagline}. Proudly manufactured and exported from Panipat, India's textile hub. Premium curtains, upholstery, and blinds.
           </p>
           <div className="flex space-x-4">
-            <a href="#" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-gold hover:text-[#111] transition-colors duration-300">
+            <a href="https://www.instagram.com/aesthetichomez.official?xtok=ZnhzYWRnY3FtYTE1&utm_source=qr" target="_blank" rel="noopener noreferrer" aria-label="Visit Aesthetic Homez on Instagram" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-gold hover:text-[#111] transition-colors duration-300">
               <Camera size={18} aria-hidden="true" />
             </a>
             <a href="#" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-gold hover:text-[#111] transition-colors duration-300">
