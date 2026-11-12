@@ -330,10 +330,10 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 // Replace these with your actual image paths
-import image2 from '../images/image2.png';
-import image3 from '../images/image3.JPG';
-import image5 from '../images/image5.png';
-import image8 from '../images/image8.png';
+import image2 from '../images/image2.webp';
+import image3 from '../images/image3.webp';
+import image5 from '../images/image5.webp';
+import image8 from '../images/image8.webp';
 
 const CATEGORIES = ["All", "Curtains", "Upholstery", "Blinds", "Accessories"];
 

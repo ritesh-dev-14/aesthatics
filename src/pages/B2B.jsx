@@ -56,9 +56,9 @@ import {
   Globe2,
   X
 } from 'lucide-react';
-import image1 from '../images/image1.png';
-import image6 from '../images/image6.png';
-import image10 from '../images/image10.png';
+import image1 from '../images/image1.webp';
+import image6 from '../images/image6.webp';
+import image10 from '../images/image10.webp';
 
 const SECTORS = [
   {

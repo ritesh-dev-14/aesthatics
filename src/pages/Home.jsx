@@ -2,18 +2,18 @@ import React, { useRef, useState } from 'react';
 import { AnimatePresence, motion, useReducedMotion, useScroll, useTransform } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { ArrowDown, ArrowRight, ArrowUpRight } from 'lucide-react';
-import image1 from "../images/image1.png";
-import image2 from "../images/image2.png";
-import image3 from "../images/image3.JPG";
-import image4 from "../images/image4.png";
-import image5 from "../images/image5.png";
-import image6 from "../images/image6.png";
-import image7 from "../images/image7.png";
-import image8 from "../images/image8.png";
-import image9 from "../images/image9.png";
-import image10 from "../images/image10.png";
-import image11 from "../images/image11.png";
-import image12 from "../images/image12.png";
+import image1 from "../images/image1.webp";
+import image2 from "../images/image2.webp";
+import image3 from "../images/image3.webp";
+import image4 from "../images/image4.webp";
+import image5 from "../images/image5.webp";
+import image6 from "../images/image6.webp";
+import image7 from "../images/image7.webp";
+import image8 from "../images/image8.webp";
+import image9 from "../images/image9.webp";
+import image10 from "../images/image10.webp";
+import image11 from "../images/image11.webp";
+import image12 from "../images/image12.webp";
 
 const collections = [
   {

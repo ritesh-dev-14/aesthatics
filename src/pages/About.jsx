@@ -54,8 +54,8 @@ import React, { useRef } from 'react';
 import { animate, motion, useInView, useMotionValue, useReducedMotion, useScroll, useTransform } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { ArrowUpRight, CheckCircle2, Quote, Users, Briefcase, Award, MapPin } from 'lucide-react';
-import image5 from '../images/image5.png';
-import image10 from '../images/image10.png';
+import image5 from '../images/image5.webp';
+import image10 from '../images/image10.webp';
 
 // Animation Variants
 const fadeInUp = {
