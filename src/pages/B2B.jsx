@@ -56,6 +56,9 @@ import {
   Globe2,
   X
 } from 'lucide-react';
+import image1 from '../images/image1.png';
+import image6 from '../images/image6.png';
+import image10 from '../images/image10.png';
 
 const SECTORS = [
   {
@@ -76,7 +79,7 @@ const SECTORS = [
       "Motorized blackout track integration (Somfy, Lutron compatible)",
       "Stain-shield and antimicrobial liquid barrier treatments"
     ],
-    image: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80"
+    image: image10
   },
   {
     id: "commercial",
@@ -96,7 +99,7 @@ const SECTORS = [
       "High-tensile woven vinyl & flame-retardant synthetic weaves",
       "Bulk volume pricing models for multi-floor developments"
     ],
-    image: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80"
+    image: image6
   },
   {
     id: "residential",
@@ -116,7 +119,7 @@ const SECTORS = [
       "Full sample swatch kit dispatch within 24 hours",
       "On-site technical site measuring and installation support"
     ],
-    image: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&q=80"
+    image: image1
   }
 ];
 

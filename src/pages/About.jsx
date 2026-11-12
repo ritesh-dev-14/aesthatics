@@ -54,6 +54,8 @@ import React, { useRef } from 'react';
 import { animate, motion, useInView, useMotionValue, useReducedMotion, useScroll, useTransform } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { ArrowUpRight, CheckCircle2, Quote, Users, Briefcase, Award, MapPin } from 'lucide-react';
+import image5 from '../images/image5.png';
+import image10 from '../images/image10.png';
 
 // Animation Variants
 const fadeInUp = {
@@ -174,7 +176,7 @@ export default function About() {
             <ScrollImage
               className="relative z-10 aspect-square shadow-2xl"
               imageClassName="w-full h-full object-cover"
-              src="https://images.unsplash.com/photo-1599619351208-3e6c839d6828?auto=format&fit=crop&q=85"
+              src={image5}
               alt="Crafting premium home textiles"
             />
           </div>
@@ -252,7 +254,7 @@ export default function About() {
               <ScrollImage
                 className="relative z-10 h-[500px] shadow-xl"
                 imageClassName="w-full h-full object-cover"
-                src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1400&q=85"
+                src={image10}
                 alt="A carefully styled interior featuring considered home textiles"
               />
             </div>

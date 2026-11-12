@@ -3,25 +3,36 @@ import { AnimatePresence, motion, useReducedMotion, useScroll, useTransform } fr
 import { Link } from 'react-router-dom';
 import { ArrowDown, ArrowRight, ArrowUpRight } from 'lucide-react';
 import image1 from "../images/image1.png";
+import image2 from "../images/image2.png";
+import image3 from "../images/image3.JPG";
+import image4 from "../images/image4.png";
+import image5 from "../images/image5.png";
+import image6 from "../images/image6.png";
+import image7 from "../images/image7.png";
+import image8 from "../images/image8.png";
+import image9 from "../images/image9.png";
+import image10 from "../images/image10.png";
+import image11 from "../images/image11.png";
+import image12 from "../images/image12.png";
 
 const collections = [
   {
     number: '01',
     name: 'Curtains',
     detail: 'Light, framed beautifully.',
-    image: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1200&q=85',
+    image: image8,
   },
   {
     number: '02',
     name: 'Upholstery',
     detail: 'Made for everyday living.',
-    image: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=85',
+    image: image5,
   },
   {
     number: '03',
     name: 'Blinds',
     detail: 'A softer way to shape light.',
-    image: 'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1200&q=85',
+    image: image6,
   },
 ];
 
@@ -29,31 +40,31 @@ const spaces = [
   {
     name: 'Curtains',
     detail: 'Let the light in, just so.',
-    image: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1400&q=85',
+    image: image9,
     alt: 'Soft daylight filtered through elegant curtains',
   },
   {
     name: 'Upholstery',
     detail: 'Comfort in every detail.',
-    image: 'https://images.unsplash.com/photo-1617806118233-18e1c0935474?auto=format&fit=crop&w=1400&q=85',
+    image: image7,
     alt: 'Warm, textured upholstery in a thoughtfully designed room',
   },
   {
     name: 'Blinds',
     detail: 'A little more control over the light.',
-    image: 'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1400&q=85',
+    image: image3,
     alt: 'Sunlight and considered window treatments in a modern interior',
   },
   {
     name: 'Living',
     detail: 'Made for the moments in between.',
-    image: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1400&q=85',
+    image: image1,
     alt: 'A calm, naturally layered living space',
   },
   {
     name: 'Hospitality',
     detail: 'A warm welcome, in every room.',
-    image: 'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1400&q=85',
+    image: image12,
     alt: 'A refined interior designed for guests',
   },
 ];
@@ -143,7 +154,7 @@ function EditorialSection() {
             whileInView={{ opacity: 1, scale: 1, y: 0 }}
             viewport={{ once: true, amount: 0.35 }}
             transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
-            src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=900&q=85"
+            src={image2}
             alt="Warm, thoughtfully layered living room"
           />
           </div>
@@ -184,7 +195,7 @@ function FullscreenFeature() {
       >
         <motion.img
           className="fullscreen-feature__image"
-          src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=2400&q=90"
+          src={image11}
           alt="A calm, sunlit living room layered with natural textures"
           loading="lazy"
           style={{ scale: imageScale }}
@@ -387,7 +398,7 @@ export default function Home() {
           transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
         >
           <img
-            src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=2000&q=85"
+            src={image4}
             alt="A calm, naturally layered interior"
             loading="lazy"
           />

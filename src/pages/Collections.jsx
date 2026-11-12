@@ -63,6 +63,10 @@
 
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import image2 from '../images/image2.png';
+import image3 from '../images/image3.JPG';
+import image5 from '../images/image5.png';
+import image8 from '../images/image8.png';
 
 const CATEGORIES = ["All", "Curtains", "Upholstery", "Blinds", "Accessories"];
 
@@ -73,7 +77,7 @@ const COLLECTIONS = [
     category: "Curtains",
     subtitle: "Artisanal Drapes & Light Control",
     desc: "Crafted from fine Belgian linen and silk blends. Designed to diffuse daylight gracefully or provide total darkness with thermal insulation.",
-    image: "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&q=80",
+    image: image8,
     priceRange: "From $240 / panel",
     badge: "Bestseller",
     specs: ["100% Belgian Linen & Silk", "Custom Drop & Heading Styles", "Thermal & Acoustic Lining Available"],
@@ -85,7 +89,7 @@ const COLLECTIONS = [
     category: "Upholstery",
     subtitle: "Tactile Elegance for Furniture",
     desc: "Heavyweight fabrics engineered for high traffic while offering unmatched softness and rich depth of color.",
-    image: "https://images.unsplash.com/photo-1617806118233-18e1c0935474?auto=format&fit=crop&q=80",
+    image: image5,
     priceRange: "From $85 / yard",
     badge: "New Release",
     specs: ["Martindale Rub Count > 50,000", "Stain & Liquid Repellent Finish", "Eco-Certified Oeko-Tex Standard"],
@@ -97,7 +101,7 @@ const COLLECTIONS = [
     category: "Blinds",
     subtitle: "Precision Light Sculpting",
     desc: "Sleek, tailored window coverings providing crisp horizontal folds and effortless motorized control options.",
-    image: "https://images.unsplash.com/photo-1594541249767-16086f6d5386?auto=format&fit=crop&q=80",
+    image: image3,
     priceRange: "From $180 / unit",
     badge: "Smart Home Compatible",
     specs: ["Manual or Smart Motorized Drive", "UV Protection & Heat Reduction", "Custom Sizing & Border Trims"],
@@ -109,7 +113,7 @@ const COLLECTIONS = [
     category: "Accessories",
     subtitle: "Decorative Accent Touches",
     desc: "Hand-finished accent pillows featuring metallic weaves, subtle geometric piping, and hypoallergenic duck-down filling.",
-    image: "https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?auto=format&fit=crop&q=80",
+    image: image2,
     priceRange: "From $65 / set",
     badge: "Handcrafted",
     specs: ["Hidden Zipper Closure", "Includes Premium Down Insert", "Dry Clean Recommended"],
