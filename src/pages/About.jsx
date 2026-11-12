@@ -333,37 +333,6 @@ export default function About() {
         </div>
       </section>
 
-      {/* 5. NEWSLETTER SECTION */}
-      <section className="py-24 bg-charcoal text-center px-6 border-t border-gray-800">
-        <div className="max-w-2xl mx-auto">
-          <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUp}>
-            <h3 className="text-3xl md:text-4xl font-serif text-gold mb-4">Get the best blog stories into your inbox!</h3>
-            <p className="text-gray-400 font-light mb-10">Join our newsletter for exclusive insights, expert tips, and the latest trends in luxury home fabrics.</p>
-            
-            <form className="flex flex-col sm:flex-row gap-4 justify-center items-center" onSubmit={e => e.preventDefault()}>
-              <div className="w-full sm:w-auto flex-grow max-w-md">
-                <input 
-                  type="email" 
-                  placeholder="Enter your email address" 
-                  className="w-full px-6 py-4 bg-white/10 text-white placeholder-gray-400 border border-gray-600 focus:outline-none focus:border-gold transition-colors"
-                  required
-                />
-              </div>
-              <button type="submit" className="w-full sm:w-auto px-10 py-4 bg-gold text-charcoal font-bold tracking-wider uppercase text-sm hover:bg-white transition-colors duration-300">
-                Subscribe
-              </button>
-            </form>
-            
-            <div className="mt-6 flex items-center justify-center gap-3">
-              <input type="checkbox" id="privacy" className="w-4 h-4 accent-gold" required />
-              <label htmlFor="privacy" className="text-sm text-gray-400">
-                I agree to the <a href="#" className="text-gold hover:underline">Privacy Policy</a>.
-              </label>
-            </div>
-          </motion.div>
-        </div>
-      </section>
-
     </div>
   );
 }
